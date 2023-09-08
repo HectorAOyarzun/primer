@@ -1,0 +1,737 @@
+
+/*reset*/
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+p {  
+    color:rgb(0, 0, 0);
+    font-size: 1rem;   
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    min-height: 100%;
+}
+body{
+    min-height: 100%;
+    min-width: 100%;
+}
+
+
+/* APLICACION DE ESTILOS A MENU */
+.navbar__index{
+    position: fixed;
+    top:0;
+}
+.header__index{
+    background-color: #0a0135;
+    display: flex;
+    height: 4em;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.menu__index__nav{
+   display: flex;
+   width: 500px;
+   justify-content: space-around;
+   list-style: none;
+   color: #fffefe;
+}
+.menu__index__nav li{
+    list-style: none;
+} 
+.menu__index__nav a{
+    text-decoration: none;
+    color: #000ba0;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.menu__index__nav a:hover{
+    color:aliceblue;
+}
+main{
+    width: auto;
+    min-width: 100%;
+    margin: 0;
+}
+.img__header{
+    background-image: url(../assets/sitio.jpg);
+    background-position: center;
+    width: 100%;
+   
+    height: 65vh;
+}
+.img-header-index h2{
+    display: flex;
+    font-size: 5em;
+    position: relative;
+    top:64px;
+    color:#ded7eb;
+    background-color: #555555;
+    opacity: .5;
+    width: 100%;
+    height: 154px;
+}
+.logo-empresa-index{
+    height: 80px;
+    top:18px;
+    padding-left: 1090px;
+    
+}
+
+/* 👇🚨🚨🚨
+
+Style principales rubros
+
+*/
+.title-principales-rubros{
+    padding-top: 20px;
+}
+.title-principales-rubros h2{
+    padding-top: 10px;
+    height: 50px;
+    border-radius: 150px;
+    color: #000879;
+    background-color: #0f2ef50a;
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.main-items{
+    padding-top:40px;
+    /*display: flex;*/
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  
+}
+.card-servicios-inicio1{
+    width: 550px;
+    flex-direction: column;
+    background-color:#ffffff ;
+    display: inline-block;
+}
+.card-servicios-inicio2{
+    width: 550px;
+    flex-direction: column;
+    background-color:#ffffff ;
+    display: inline-block;
+}
+.card-servicios-inicio3{
+    width: 550px;
+    flex-direction: column;
+    background-color:#ffffff ;
+    display: inline-block;
+}
+
+.card-servicios-inicio h3{
+    position: relative;
+    text-align: center;
+    top:180px;
+    color:#ffffff;
+    font-size: 45px;
+}
+.card-servicios-inicio a{
+    text-decoration: none;
+    color:white;
+}
+
+.card-img{
+    width: 100%;
+    color: #000879;
+    
+}
+.card-servicios-inicio a:hover{
+    color:#0e1dec;
+    
+}
+/* section como lo hacemos*/
+/*Title-como-lo-hacemos*/
+.title-como-lo-hacemos{
+     padding-top: 20px;
+}
+
+.title-como-lo-hacemos h2{
+    padding-top: 10px;
+    height: 50px;
+    border-radius: 150px;
+    color: #000879;
+    background-color: #0f2ef50a;
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/*CARD como-lo-hacemos*/
+.section-como-lo-hacemos{
+    display: flex;
+    width: 100%;
+    padding-top: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.card-lo-hacemos{
+   /* flex-flow:wrap;*/
+    background-color:#ffffff ;
+}
+.card-lo-hacemos h2{
+    text-align: center;
+}
+.card-lo-hacemos p{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card-lo-hacemos img{
+  
+    width: 70px;
+    padding-left: 5px;
+}
+
+
+
+
+
+
+
+/* 👇🚨🚨🚨
+
+Estilos de la seccion rubros
+
+*/
+.container__logistica{
+    display:grid;
+    grid-template-areas: 
+
+    "links links links"
+    "content content content"
+    "content content content"
+    "foot foot foot"
+    ;
+}
+.menu__pages{
+    grid-area: links;
+}
+.content__logistics{
+    grid-area: content;
+}
+
+.container__footer{
+    grid-area: foot;
+}
+.menu__pages{
+    background-color:#0a0135;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu__pages li{
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.menu__pages li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 10px 10px;
+    padding: 5px 5px;
+   
+}
+
+.menu__pages li a:hover{
+    color:rgb(0, 45, 84);
+    background-color: #fffefe;
+    border-radius: 30px;
+}
+
+/* 👇🚨🚨🚨
+
+Estilos descripcion-rubros
+
+*/
+.title__service__logistics{
+    display: flex;
+    flex-direction: column;
+}
+.title__service__logistics h2{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 0px;
+    font-size: 32px;
+    background-color: #ded7eb;
+}
+.title__service__logistics h2 p{
+    padding-top: 10px;
+    color:#747474;
+}
+.title__service__logistics_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.title__service__logistics_menu a{
+    text-decoration: none;
+}
+.title__service__logistics_menu p:hover{
+   
+    color: #3917f8;
+    
+}
+.service__explanation{
+    display:flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+.service__explanation__img{
+    display: flex;
+   /* height: 100%;
+    flex-flow: wrap;
+    flex-direction: column;*/
+    align-items: center;
+    /*margin:40px;
+    padding-top: 50px;*/
+}
+.service__explanation__img img{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    /*border-radius: 15px;*/
+   
+
+}
+.explicacion__servicio{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    /*padding: 5rem 0 3rem;*/
+    flex-direction: column;
+    align-items: stretch;
+    align-content: space-evenly;
+    margin-left:40px;
+  
+    
+}
+
+.explicacion__servicio h4{
+    padding-bottom: 1rem;
+}
+.explicacion__servicio li{
+    padding-bottom: 0.5rem;
+}
+.service__explanation2{
+    display:flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+.service__explanation2__img{
+    display: flex;
+   /* height: 100%;
+    flex-flow: wrap;
+    flex-direction: column;*/
+    align-items: center;
+    /*margin:40px;
+    padding-top: 50px;*/
+}
+.service__explanation2__img img{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    /*border-radius: 15px;*/
+   
+
+}
+.explicacion__servicio2{
+     display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    /*padding: 5rem 0 3rem;*/
+    flex-direction: column;
+    align-items: stretch;
+    align-content: space-evenly;
+    margin-right:40px;
+}
+.explicacion__servicio2 h4{
+    padding-bottom: 1rem;
+}
+.explicacion__servicio2 li{
+    padding-bottom: 0.5rem;
+}
+.more__details{
+   
+    display: flex;
+    flex-direction: column;
+}
+ 
+.more__details h3{
+    text-align: center;
+    background-color: #4a62ff;
+    color: white;
+    height: 80px;
+    padding-top: 30px;
+  
+}
+.more__details__column{
+   display: flex;
+   justify-content: space-evenly;
+   background-color: #a0a1d5;
+   ;
+   padding: 30px 0px 30px 0px;
+}
+
+.more__details__column li{
+    padding-top: 10px;
+}
+
+.more__details__column  p{
+    font-size: 12px;
+}
+.contacto-whatsapp{
+    display: flex;
+    width: 100%;
+}
+.contacto-whatsapp a{
+    width: 15%;
+    position: fixed;
+}
+.contacto-whatsapp a img{
+    padding-top: 30px;
+    width: 50%;
+}
+
+
+    
+
+
+.titulo-principales-rubros{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:black ;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius:45px;
+    text-align: center;
+}
+
+/*section img services*/
+
+.section-service{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: ;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius:30px;
+    padding: 5px;
+    
+}
+
+
+
+
+
+.img-article{
+    display: inline-block;
+    flex-wrap: wrap;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: ;
+   
+   
+   
+}
+
+
+
+
+
+
+.text-description-service{
+    display: inline-block;
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+
+}
+
+
+.container__us{
+    display:grid;
+    grid-template-areas: 
+    "links links links"
+    "content_us content_us content_us"
+    "foot foot foot"
+    ;
+}
+.menu__pages{
+    grid-area: links;
+}
+.container__about{
+    grid-area: content_us;
+}
+
+.container__footer{
+    grid-area: foot;
+}
+
+.title__about{
+    text-align: center;
+    margin-top: 20px;
+}
+.explanation__us{
+    display: flex;
+   flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:50px;
+}
+.explanation__us__img{
+    display: flex;
+    width: 50%;
+}
+.explanation__us__img img{
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+}
+.explanation__us__text{
+    display: flex;
+    flex-direction: column;
+    margin:20px 120px 20px 120px;
+}
+.explanation__us__text p{
+    text-align: justify;
+}
+
+/* Footer*/
+
+.container__footer__column{
+    display:flex;
+    justify-content: space-around;
+    background-color: #0a0135;
+    padding:20px 0px 20px 0px;
+}
+.container__footer__column h3{
+    color: #0089ff;
+}
+.container__footer__column li{
+    list-style: none;
+    padding-top: 20px;
+    
+}
+.container__footer__column li a{
+text-decoration: none;
+color: white;
+
+}
+.container__footer__column li a:hover{
+background-color: #fffefe;
+color:#0e1dec;
+}
+.footer__column__contacto h4{
+    color:white;
+    padding-top: 20px;
+}
+
+
+/* -------- @@@MEDIA MAX-WIDTH 600PX-------------*/
+
+@media (max-width: 600px){
+html{
+    min-height: 100%;
+}
+body{
+    min-height: 100%;
+    min-width: 100%;
+}
+   .container__logistica{
+    display:grid;
+    background-color: #b0a4ef;
+    grid-template-areas: 
+    "links"
+    "content"
+    "foot"
+    ;
+}
+.menu__pages{
+    grid-area: links;
+}
+.content__logistics{
+    grid-area: content;
+}
+.container__footer{
+    grid-area: foot;
+}
+
+.service__explanation{
+    display:inline-block;
+}
+.title__service__logistics{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 22px;
+    background-color: #ded7eb;
+
+}
+.service__explanation__img{
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+}
+
+.service__explanation__img img{
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+
+}
+.explicacion__servicio{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding: 5rem 0 3rem;
+    flex-direction: column;
+    align-items: stretch;
+    align-content: space-evenly;
+    margin:10px;
+}
+.explicacion__servicio h3{
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.explicacion__servicio h4{
+    padding-bottom: 1rem;
+}
+.explicacion__servicio li{
+    padding-bottom: 0.5rem;
+}
+
+.service__explanation2{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.service__explanation2__img{
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+}
+
+.service__explanation2__img img{
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+
+}
+.explicacion__servicio2{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding: 5rem 0 3rem;
+    flex-direction: column;
+    align-items: stretch;
+    align-content: space-evenly;
+    margin:10px;
+}
+.explicacion__servicio2 h3{
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.explicacion__servicio2 h4{
+    padding-bottom: 1rem;
+}
+.explicacion__servicio2 li{
+    padding-bottom: 0.5rem;
+}
+/* ---------- FOOTER ----------*/
+
+.container__footer__column{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #0a0135;
+    padding:20px 0px 20px 0px;
+
+}
+.container__footer__column h3{
+    color: #0089ff;
+    padding-top: 20px;
+}
+.container__footer__column li{
+    list-style: none;
+    padding-top: 20px;
+    
+}
+.container__footer__column li a{
+text-decoration: none;
+color: white;
+
+}
+
+.footer__column__contacto h4{
+    color:white;
+    padding-top: 20px;
+}
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
