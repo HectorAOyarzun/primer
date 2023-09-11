@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="../css/style.css"> <!--css style -->
+    <!--Bootstrap V 5.3.1-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
+    crossorigin="anonymous">
+    <!--css style -->
+    <link rel="stylesheet" href="../css/style.css"> 
     
     <!-- Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,17 +17,102 @@
     <title>Planes</title>
 </head>
 <body>
-    <header class="menu-pages">
-        <nav class="">
-            <ul class="">
-                <li class="main-nav-pag-pages"><a href="../index.html">Inicio</a></li>
-                <li class="main-nav-pag-pages"><a href="./nosotros.html">Nosotros</a></li>
-                <li class="main-nav-pag-pages"><a href="./servicios.html">Servicios</a></li>
-                <li class="main-nav-pag-pages"><a href="./planes.html">Planes</a></li>
-                <li class="main-nav-pag-pages"><a href="./blog.html">Blog</a></li>
-                <li class="main-nav-pag-pages"><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+   <div class="container__grid__rubros">
+   <header class="content__nav__menu">      
+       <nav class="navbar navbar-expand-lg style__navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand style__navbar__logo" href="#"><img src="../assets/Logo.jpg"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav style__navbar__li">
+                    <li class="nav-item ">
+                    <a class="nav-link " aria-current="page" href="" hidden>Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link " href="../pages/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="../pages/planes.html">Planes</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="../pages/blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+    </nav>         
+</header>
+
+
+    
+<main class="content__rubros">
+        
+        
+</main>
+        
+<footer class="content__footer">
+        
+        <div class="container__footer__column">
+        <section class="footer__column__menu">
+          <h3>Menu</h3>
+          <ul>
+          <li><a href="../index.html">Inicio</a></li>
+           <li><a  href="../pages/nosotros.html">Nosotros</a></li>
+           <li><a  href="../pages/servicios.html">Servicios</a></li>
+           <li><a  href="../pages/planes.html">Planes</a></li>
+           <li><a  href="../pages/blog.html">Blog</a></li>
+          <li><a   href="../pages/contacto.html">Contacto</a> </li>
+           </ul>
+        </section>
+        <section class="footer__column__interes">
+        <h3>Paginas de interes</h3>
+        <ul>
+          <li><a  href="https://www.suseso.cl/601/w3-channel.html">Suseso</a></li>
+           <li><a href="https://senapred.cl/">Sernapred</a></li>
+           <li><a href="https://www.dt.gob.cl/portal/1626/w3-channel.html">Inspección del trabajo</a></li>
+           <li><a href="https://www.isl.gob.cl">Instituto de seguridad laboral</a></li>
+           <li><a href="https://www.achs.cl">ACHS</a></li>
+           <li><a href="https://www.mutual.cl">Mutual</a></li>
+           <li><a href="https://www.ist.cl">IST</a></li>
+           </ul>
+        </section>
+         <section class="footer__column__contacto">
+            <h3>Contacto</h3>
+             <ul>
+                <h4>Telefono</h4>
+                <li><a href="">+56936910341</a></li>
+                <h4>Email</h4>
+                <li><a href="">maoasesoria@gmail.com</a></li>
+            
+             </ul>
+                <div class="footer__rrss">
+                     <a href="https://www.linkedin.com/in/h%C3%A9ctor-alejandro-oyarz%C3%BAn-mu%C3%B1oz-6768aa181/"> 
+                       <img class="footer__column__contacto_logo" 
+                         src="https://img.icons8.com/ios-filled/100/linkedin.png" alt="linkedin"  /></a>
+                    <a href="https://web.facebook.com/MAOprevencion">
+                       <img class="footer__column__contacto_logo" 
+                         src="https://img.icons8.com/ios-filled/100/facebook--v1.png" alt="facebook--v1"/></a>
+               </div>
+        </section>
+        </div>
+       </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" 
+    crossorigin="anonymous"></script>
+</div>
 </body>
 </html>
+
+

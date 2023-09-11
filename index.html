@@ -17,156 +17,221 @@
     <title>Gestionaprev</title>
 </head>
 <body>
- <header class="header__index">      
-       <nav class="navbar navbar-expand-lg bg-body-tertiary navbar__index">
+<div class="container__grid__index">
+ <header class="content__nav__menu">      
+       <nav class="navbar navbar-expand-lg style__navbar">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand style__navbar__logo" href="#"><img src="./assets/Logo.jpg"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+      <ul class="navbar-nav style__navbar__li">
+        <li class="nav-item ">
+          <a class="nav-link " aria-current="page" href="/index.html" hidden >Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/pages/nosotros.html">Nosotros</a>
+          <a class="nav-link" href="index.html" >Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/pages/servicios.html">Servicios</a>
+          <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./pages/servicios.html">Servicios</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="/pages/planes.html">Planes</a>
+          <a class="nav-link" href="./pages/planes.html">Planes</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="/pages/blog.html">Blog</a>
+          <a class="nav-link" href="./pages/blog.html">Blog</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+          <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+        </li>
+         <li class="nav__contacto">
+          <a class="nav__contacto__mail" href="./pages/contacto.html">maoasesoria@gmailcom</a>
         </li>
         
       </ul>
     </div>
   </div>
-</nav>
-            
+</nav>         
 </header>
+<main class="container__home" >
+    <section class="img__header"></section>  
+ 
+    <div class="back__color"   >
+    <div id="carouselExampleCaptions" class="carousel slide carousel__rubros">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+       
+  <div class="carousel-inner width__carousel">
+          <div class="carousel-item active" data-bs-interval="10000">
+           <a href="./pages/construccion.html"><img   src="./assets/cosntruccion.jpg"
+             class="d-block w-100" alt="Construcción"></a>
+            <div class="carousel-caption d-none d-md-block">
+               <h5>Construcción</h5>
+              <p>En el sector de la construcción el plan de prevención de riesgos laborales 
+                es una herramienta fundamental para ayudar a eliminar la gran cantidad de 
+                accidentes de trabajos que se producen en las obras y la gravedad de los
+                 mismos.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <a href="./pages/logistica.html"><img src="./assets/Logistica.jpg"
+               class="d-block w-100" alt="logistica"></a>
+            <div class="carousel-caption d-none d-md-block">
+               <h5>Logistica</h5>
+              <p>La gestión de riesgos logísticos es crucial por varias razones:
+                 Minimizar interrupciones: La identificación temprana de riesgos 
+                 logísticos ayuda a prevenir interrupciones en la cadena de 
+                 suministro que podrían resultar en retrasos en la entrega o escasez
+                  de productos.</p>
+            </div></a>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <a href="./pages/transporte.html"> <img src="./assets/Transporte.jpg" 
+              class="d-block w-100" alt="Transporte"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Transporte</h5>
+              <p>Está comprobado que la gestión de riesgo en el transporte de carga no 
+                solo aumenta la seguridad, sino que también mejora la logística de entrega 
+                de una compañía.</p>
+            </div>
+          </div>
+       </div>
+ 
    
-<main>
-    <section class="img__header">      
-      
-       
-    </section>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+        </button>
 
-    <!--Title Principales Rubros-->
-    <section class="title-principales-rubros">
-        <h2 >PRINCIPALES RUBROS </h2>
-    </section>
-    <!--CARD con HREF Principales RUbros-->
-
-    <section class="main-items">                 
-        <article class="card-servicios-inicio1">       
-            <h3><a href="pages/logistica.html">Logistica</a></h3>
-                <a title="Logistica" href="pages/logistica.html"><img    class="card-img" src="./assets/Logistica.jpg" alt="Asesoria en rubro logistico"></a>
-        </article>
-          
-        <article class="card-servicios-inicio3">
-            <h3><a href="pages/transporte.html">Transporte</a></h3>
-                 <a title="Transporte" href="pages/transporte.html">   <img class="card-img" src="./assets/Transporte.jpg" alt="Asesoria en rubro transporte"></a>
-        </article>
-
-        <article class="card-servicios-inicio1">
-            <h3 ><a href="pages/construccion.html">Construcción</a></h3>
-                 <a title="Cosntruccion" href="pages/construccion.html"> <img class="card-img" src="./assets/cosntruccion.jpg" alt="Asesoria en rubro construccion"></a> 
-        </article>
-         <article class="card-servicios-inicio2">
-            <h3 ><a href="pages/construccion.html">Aseo industrial</a></h3>
-                 <a title="Cosntruccion" href="pages/construccion.html"> <img class="card-img" src="./assets/cosntruccion.jpg" alt="Asesoria en rubro construccion"></a> 
-        </article>
-    </section>
-
-     <!--Title-como-lo-hacemos-->
-     <section class="title-como-lo-hacemos">
-        <h2 >CÓMO LO HACEMOS </h2>
-     </section>
-     <!--CARD-como-lo-hacemos-->
-      <section class="section-como-lo-hacemos">
-        <article class="card-lo-hacemos">
-            <h2>1</h2>
-            <h3 >Diagnosticar</h3>
-            <img class="" src="./assets/actuamos.png" alt="Asesoria en rubro logistico">
-            <p>Realizamos un diagnostico inicial a los procesos de tu organizacion, 
-                y en funcion a sus resultados elaboramos un plan de accion</p>
-        </article>
-        <article class="card-lo-hacemos">
-            <h2>2</h2>
-            <h3 >Establecer</h3>
-            <img class="" src="./assets/establecer-2.png" alt="Asesoria en rubro logistico">
-        <p>Como segundo paso y de acuerdo  los resultados entregados por el diagnostico 
-            , se establece el plan de trabajo.
-        </p>
-            
-        </article>
-
-        <article class="card-lo-hacemos">
-            <h2>3</h2>
-            <h3 >Actuar</h3>
-            <img class="" src="./assets/actuar-3.png" alt="Asesoria en rubro logistico">
-            <p>Cada integrante de la organizacion debe actuar bajo las normas establecidas.  las 
-                actividades debe ser monitoreadas.
+    </div>
+  </div>
+  <div class="advice">
+    <section class="advice__description">
+        <div class="advice__description__text">
+            <p>
+              El servicio de Asesorías en Prevención de Riesgos y Salud Ocupacional está
+              dirigido a todo tipo de empresas, que ya sea por iniciativa propia o bien
+              a solicitud de sus mandantes, deban incorporar dentro de sus procesos normas
+              y/o actividades en esta materia.
             </p>
-        </article>
+            <h2>
+              Los principales beneficios de implementar normas y/o actividades
+               de prevención de riesgos y salud ocupacional son:
+            </h2>
+            <ul>
+              <li>Protección de la salud e integridad física de los colaboradores.</li>
+              <li>Cumplimiento de la legislación vigente en materias de seguridad
+                 y salud ocupacional, lo que mantiene a las empresas protegidos 
+                 en caso de eventuales fiscalizaciones.</li>
+              <li>Cumplimiento de obligaciones en materias de prevención 
+                de riesgos y salud ocupacional adquiridas con empresas mandantes.</li>
+               <li>Reducir los costos derivados de accidentes del trabajo y 
+                enfermedades profesionales.</li>
+                <h2>
+                 ¡Obtenga estos beneficios!
+            </h2>
+            </ul>
+        </div>
+        
 
-        <article class="card-lo-hacemos">
-            <h2>4</h2>
-            <h3 >Verificar</h3>
-            <img class="" src="./assets/verificar3.png" alt="Asesoria en rubro logistico">
-            <p>Se verifica si las medidas establecidas son las mas adecuadas.ssss
-                ssssssaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa asa</p>
-        </article>
-    </section>
+      </section>
+      <div class="advice__description__img">
+          <img src="./assets/Logo.jpg" alt="Logo"> 
+        </div>
+   </div>
 
-    <section class="title-presencia">
-        <h2>PRESENCIA</h2>
-        <h4 class="description-presencia">Estamos presentes en la Decima region de los lagos, con asistencia en 
-                las comunas de Entre Lagos, La union, Purranque, San juan de la costa, 
-                y la ciudad de Osorno.
-        </h4>
-    <!--</section>-->
-       
-        <!--<section class="">-->
-      
-            
-            <img class="img-chile" src="./assets/ubicacion.png" alt="mapa-chile">  
-        </section>
-    
-</main>
+   <div class="because">
+    <div class="because__title">
+      <h2>¿Porqué elegirnos?</h2>
+    </div>
+    <div class="because__column">
+    <div class="because__reason">
+      <h3>Confianza</h3>
+       <p>Nuestro compromiso personal de utilizar nuestra vasta experiencia,
+         conocimientos y pericia profesional al momento de prestar nuestros 
+         servicios con el único objetivo de ser un aporte a su empresa.</p>
+    </div>
+    <div class="because__reason">
+      <h3>Excelencia</h3>
+      <p>Mantendremos la más absoluta reserva de los datos, documentos,
+         informaciones y procedimientos internos, que pueda conocer en razón de 
+         los servicios que llegase a prestar a su empresa.</p>
+    </div>
+    </div>
 
-<footer class="content-footer">
-
- <section class="column">
-   <h3>Menu</h3>
-   <ul>
-   <li><a class="link-footer" href="index.html">Inicio</a></li>
-    <li><a class="link-footer" href="pages/nosotros.html">Nosotros</a></li>
-    <li><a class="link-footer" href="pages/servicios.html">Servicios</a></li>
-    <li><a class="link-footer" href="pages/planes.html">Planes</a></li>
-    <li><a class="link-footer" href="pages/blog.html">Blog</a></li>
-   <li><a class="link-footer" href="pages/contacto.html">Contacto</a> </li>
-    </ul>
-
-
- <h3>Paginas de interes</h3>
-   <a class="link-footer" href="index.html">Inicio</a> 
-    <a class="link-footer" href="pages/nosotros.html">Nosotros</a>
-    <a class="link-footer" href="pages/servicios.html">Servicios</a>
-    <a class="link-footer" href="pages/planes.html">Planes</a>
-    <a class="link-footer" href="pages/blog.html">Blog</a>
-    <a class="link-footer" href="pages/contacto.html">Contacto</a>
-     </section>
-</footer>
-
+    <div class="because__column">
+    <div class="because__reason">
+      <h3>Confianza</h3>
      
+    </div>
+    <div class="because__reason">
+      <h3>Excelencia</h3>
+    </div>
+    </div>
+   </div> 
 
+</main>
+  
+<footer class="container__footer">
+
+        <div class="container__footer__column">
+        <section class="footer__column__menu">
+          <h3>Menu</h3>
+          <ul>
+          <li><a href="../index.html">Inicio</a></li>
+           <li><a  href="../pages/nosotros.html">Nosotros</a></li>
+           <li><a  href="../pages/servicios.html">Servicios</a></li>
+           <li><a  href="../pages/planes.html">Planes</a></li>
+           <li><a  href="../pages/blog.html">Blog</a></li>
+          <li><a   href="../pages/contacto.html">Contacto</a> </li>
+           </ul>
+        </section>
+        <section class="footer__column__interes">
+        <h3>Paginas de interes</h3>
+        <ul>
+          <li><a  href="https://www.suseso.cl/601/w3-channel.html">Suseso</a></li>
+           <li><a href="https://senapred.cl/">Sernapred</a></li>
+           <li><a href="https://www.dt.gob.cl/portal/1626/w3-channel.html">Inspección del trabajo</a></li>
+           <li><a href="https://www.isl.gob.cl">Instituto de seguridad laboral</a></li>
+           <li><a href="https://www.achs.cl">ACHS</a></li>
+           <li><a href="https://www.mutual.cl">Mutual</a></li>
+           <li><a href="https://www.ist.cl">IST</a></li>
+           </ul>
+        </section>
+         <section class="footer__column__contacto">
+            <h3>Contacto</h3>
+             <ul>
+                <h4>Telefono</h4>
+                <li><a href="">+56936910341</a></li>
+                <h4>Email</h4>
+                <li><a href="">maoasesoria@gmail.com</a></li>
+            
+             </ul>
+                <div class="footer__rrss">
+                     <a href="https://www.linkedin.com/in/h%C3%A9ctor-alejandro-oyarz%C3%BAn-mu%C3%B1oz-6768aa181/"> 
+                       <img class="footer__column__contacto_logo" 
+                         src="https://img.icons8.com/ios-filled/100/linkedin.png" alt="linkedin"  /></a>
+                    <a href="https://web.facebook.com/MAOprevencion">
+                       <img class="footer__column__contacto_logo" 
+                         src="https://img.icons8.com/ios-filled/100/facebook--v1.png" alt="facebook--v1"/></a>
+               </div>
+        </section>
+        </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" 
+crossorigin="anonymous"></script>
+</div>
 </body>
 </html>
